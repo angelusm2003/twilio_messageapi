@@ -1,5 +1,5 @@
 # Twilio Messages
-this repositories have 2 project:
+this repository have 2 projects:
 
 1. the frontend with angular (frontwilio)
 2. the backend with springboot , hibernate and sql lite (TwillioSender)
