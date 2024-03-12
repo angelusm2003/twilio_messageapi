@@ -1,0 +1,24 @@
+<form [formGroup]="messageForm" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+      <label for="to" class="form-label">To</label>
+      <input type="text" class="form-control" id="to" formControlName="to">
+      <div *ngIf="messageForm.get('to')?.hasError('required')" class="text-danger">
+        To is required
+      </div>
+      <div *ngIf="messageForm.get('to')?.hasError('pattern')" class="text-danger">
+        Invalid phone number format
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Message</label>
+      <textarea class="form-control" id="message" formControlName="message"></textarea>
+      <div *ngIf="messageForm.get('message')?.hasError('required')" class="text-danger">
+        Message is required
+      </div>
+    </div>
+    <div *ngIf="responseMessage" class="alert" [ngClass]="responseMessage.includes('successfully') ? 'alert-success' : 'alert-danger'" role="alert">
+      {{ responseMessage }}
+    </div>
+    <button type="submit" class="btn btn-primary">Send</button>
+  </form>
+  
