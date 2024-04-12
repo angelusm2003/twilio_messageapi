@@ -88,7 +88,7 @@ This is a simple Angular application for sending and listing messages. It includ
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
-- [Endpoints](#endpoints)
+- [Previous Messages](#previousmessages)
 - [Contributing](#contributing)
 - [License](#License)
 
@@ -136,6 +136,10 @@ ng serve
 ```
 
 Open your web browser and navigate to http://localhost:4200/ to view the application.
+
+## Previous messages
+
+you can access the previous messages in the link http://localhost:4200/message-list
 
 ## Contributing
 
