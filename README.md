@@ -88,7 +88,7 @@ This is a simple Angular application for sending and listing messages. It includ
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
-- [Previous Messages](#previous messages)
+- [Previous Messages](#previousmessages)
 - [Contributing](#contributing)
 - [License](#License)
 
