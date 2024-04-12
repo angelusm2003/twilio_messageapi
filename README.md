@@ -44,9 +44,11 @@ Before running this project, make sure you have the following installed:
     ```
 3. Create a .env file with the following information:
 
+```
 TWILIO_ACCOUNT_SID=YOUR_TWILIO_ACCOUNT_SID
 TWILIO_AUTH_TOKEN=YOUR_TWILIO_TOKEN
 TWILIO_PHONE_NUMBER=YOUR_TWILIO_PHONE_NUMBER
+```
 
 4. Build the project and then run it
 
