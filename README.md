@@ -34,20 +34,21 @@ Before running this project, make sure you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/spring-boot-twilio-sender.git
+    git clone https://github.com/angelusm2003/twilio_messageapi.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd spring-boot-twilio-sender
+    cd TwillioSender 
     ```
+3. Create a .env file with the following information:
 
-3. Build the project:
+TWILIO_ACCOUNT_SID=YOUR_TWILIO_ACCOUNT_SID
+TWILIO_AUTH_TOKEN=YOUR_TWILIO_TOKEN
+TWILIO_PHONE_NUMBER=YOUR_TWILIO_PHONE_NUMBER
 
-    ```bash
-    mvn clean install
-    ```
+4. Build the project and then run it
 
 ## Configuration
 
